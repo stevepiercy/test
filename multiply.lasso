@@ -14,6 +14,6 @@ local(
 if(#a->asstring != '' && #b->asstring != '' ) => {^
     multiply(integer(#a),integer(#b))
 else
-    'Submit values for both fields.'
+    'Submit numeric values for both fields.'
 ^}
 ]
